@@ -1,3 +1,9 @@
+@font-face {font-family: 'LeagueSpartan';font-weight: 100 900;font-display: swap;font-style: normal;font-named-instance: 'Regular';src: url(/fonts/LeagueSpartan-Bold-2.otf) format("otf");}
+@font-face {
+  font-family: 'Salima';
+  /* Autres propriétés facultatives comme font-weight, font-style */
+}
+@import url('https://fonts.cdnfonts.com/css/league-spartan');
 .root {
     width: 100%;
     background-size: cover;
@@ -81,4 +87,19 @@
     .content {
         padding: 0px 32px;
     }
+}
+
+.Hero-module--title--b7d95{
+
+ text-shadow: 6px 8px 8px black;
+    /* text-shadow: 1px 1px 2px black; */
+    TEXT-TRANSFORM: uppercase;
+    FONT-SIZE: 47PX;
+    FONT-FAMILY: revert;
+}
+rectenglis {
+  font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    background-color: #8d5e49ba;
+    padding: 5px;
 }
