@@ -28,11 +28,11 @@ const IndexPage = () => {
     <Layout disablePaddingBottom>
       {/* Hero Container */}
       <Hero
-        maxWidth={'516px'}
+        maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Style marocain, pure élégance'}
-        subtitle={'Découvrez la collection 2023'}
-        ctaText={'Voir'}
+        title={'Essentials for a cold winter'}
+        subtitle={'Discover Autumn Winter 2021'}
+        ctaText={'shop now'}
         ctaAction={goToShop}
       />
 
