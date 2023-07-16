@@ -111,3 +111,8 @@ img.logobrandsites{
     MARGIN-BOTTOM: -50PX  !important;
     MARGIN-TOP: -32PX  !important;
 }
+img.logobrandsites {
+    height: 90px;
+    width: auto;
+    margin: -40px;
+}
