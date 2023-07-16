@@ -19,9 +19,10 @@ const Hero = (props) => {
   return (
     <div className={styles.root} style={{ backgroundImage: `url(${image})` }}>
       <div className={styles.content} style={{ maxWidth: '600px' }}>
-                   <rectenglis>
-                  <h2>STYLE MAROCAIN,PURE ELEGANCE</h2>
-                  </rectenglis>
+        {header && <span className={styles.header}>{header}</span>}
+             <rectenglis>
+          {title && <h2 className={styles.title} m80mm>{title}</h2>}
+           </rectenglis>
 <center>
           
          {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
