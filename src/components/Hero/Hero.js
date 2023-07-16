@@ -21,7 +21,7 @@ const Hero = (props) => {
       <div className={styles.content} style={{ maxWidth: '600px' }}>
         {header && <span className={styles.header}>{header}</span>}
              <rectenglis>
-          {title && <h2 className={styles.title} m80mm>{title}</h2>}
+                    {title && <h2 className={styles.title} m80mm>{STYLE MAROCAIN, <minis>PURE ÉLÉGANCE</minis>}</h2>}
            </rectenglis>
 <center>
           
