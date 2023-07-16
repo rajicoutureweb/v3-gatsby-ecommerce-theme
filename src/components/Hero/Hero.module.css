@@ -103,3 +103,11 @@ rectenglis {
     background-color: #8d5e49ba;
     padding: 5px;
 }
+img.logobrandsites {
+    width: 226px;
+    height: 80px;
+    overflow-clip-margin: content-box;
+    OVERFLOW: HIDDEN;
+    MARGIN-BOTTOM: -50PX;
+    MARGIN-TOP: -32PX;
+}
