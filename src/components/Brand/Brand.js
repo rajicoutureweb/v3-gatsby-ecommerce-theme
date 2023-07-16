@@ -11,7 +11,7 @@ const Brand = (props) => {
       onClick={() => navigate('/')}
     >
       {/* <h4>SYDNEY</h4> */}
-        <img src="/logo-rajicouture-8989.png" className="logobrandsites" style={{ height: '200px', width: 'auto' }} />    </div>
+        <img src="/logo-rajicouture-8989.png" className="logobrandsites" style={{ height: '90px', width: 'auto', margin: '-40px' }} />    </div>
   );
 };
 
