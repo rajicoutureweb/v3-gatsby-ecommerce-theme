@@ -30,9 +30,9 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Style marocain,'}
-        subtitle={'pure élégance'}
-        ctaText={'Découvrez la collection 2023'}
+        title={'Style marocain, pure élégance'}
+        subtitle={'Découvrez la collection 2023'}
+        ctaText={'VOIR'}
         ctaAction={goToShop}
       />
 
