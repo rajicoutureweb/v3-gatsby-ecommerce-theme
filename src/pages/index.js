@@ -27,9 +27,14 @@ const IndexPage = () => {
   return (
     <Layout disablePaddingBottom>
       {/* Hero Container */}
-    
-      <div className="Hero-module--content--96d22" style={{maxWidth: '600px'}}><rectenglis><h2 className="Hero-module--title--b7d95">Style marocain, pure élégance</h2></rectenglis><center><span className="Hero-module--subtitle--b24ab">Découvrez la collection 2023</span></center><button className="Button-module--button--c17ef Button-module--primary--2e17d Hero-module--ctaButton--06285 undefined">VOIR</button></div>
-  
+      <Hero
+        maxWidth={'500px'}
+        image={'/banner1.png'}
+        title={'Style marocain, pure élégance'}
+        subtitle={'Découvrez la collection 2023'}
+        ctaText={'VOIR'}
+        ctaAction={goToShop}
+      />
 
       {/* Message Container */}
       <div className={styles.messageContainer}>
